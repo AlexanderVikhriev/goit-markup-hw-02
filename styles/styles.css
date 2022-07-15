@@ -1,0 +1,125 @@
+/* цвет лого #000000, 2196F3*/
+/* цвет h2 и подзаголовков 212121 */
+/* цвет текста 757575 */
+/* цвет фона вторичный #F5F4FA */
+/* цвет фона #FFFFFF */
+/* цвет фона герой #2F303A */
+body {
+background-color: #fff;
+color: #757575;
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em
+}
+.list, .advantages-list, .footer-list { list-style: none;}
+.logo {color: #2196F3;
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 0.03em}  
+.logopart {color: #000000;
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 0.03em}
+
+.navigation a {color: #212121;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+}
+.authorisation a { color: #757575;
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em}
+.navigation .link.current {color: #2196F3}
+
+.navigation a:hover, 
+.navigation a:focus { color: #2196F3;}
+.authorisation a:hover, 
+.authorisation a:focus  {color: #2196F3;}
+
+.hero {
+    background-color: #2F303A;
+    color: #fff;
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase
+}
+.button {
+color: #fff;
+background-color: #2196F3;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em
+}
+.section-title, .title, .name {color: #212121;}
+.section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+}
+.title, .name {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em
+}
+p {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em}
+
+.team {background-color: #F5F4FA;}
+
+.footer {background-color: #2F303A}
+.colortext-footer {color: #fff;
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em}
+.address {color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;}
+.footer-list a {color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em}
+
+/* дополнительно для портфолио */
+.buttonlist {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em
+}
+.buttonlist:hover,
+.buttonlist:focus {
+    color: #fff;
+    background-color: #2196F3;
+}
+
+.point {color: #212121;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em}
+.spec {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em}
